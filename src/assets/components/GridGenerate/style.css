@@ -1,0 +1,14 @@
+.grid-item{
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: flex;
+    margin: 10px;
+}
+
+.contenedor-grid-generada{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
