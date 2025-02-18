@@ -9,7 +9,7 @@ function CssGenerate(): JSX.Element {
   
   // Estado para los elementos creados dinámicamente
   const [cssItems, setCssItems] = useState<{ row: number; col: number }[]>([]);
-
+  setCssItems;
   return (
     <div className="contenedor-estilos">
       <pre>
