@@ -11,7 +11,7 @@ function CssGenerate(): JSX.Element {
   const [cssItems, setCssItems] = useState<{ row: number; col: number }[]>([]);
   setCssItems;
   return (
-    <div className="contenedor-estilos">
+    <div className="contenedor-estilos"> css
       <pre>
         <code>
           <StyleContainer rows={rows} columns={columns} />
